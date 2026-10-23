@@ -1,0 +1,60 @@
+:root {
+    --font-primary: "Quicksand", sans-serif;
+
+    --color-heading: #36413C;
+    --color-text: #5E6E66;
+    --color-button: #DE6C17;
+    --color-button-hover: #FF6D00;
+
+    --radius-button: 4px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    background: var(--color-button);
+    border-radius: var(--radius-button);
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 33px;
+}
+
+.button:hover {
+    background: var(--color-button-hover);
+}
+
+.link {
+    color: var(--color-button);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-button-hover);
+}
