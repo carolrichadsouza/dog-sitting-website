@@ -225,3 +225,20 @@ h1, h2, h3, p {
     line-height: normal;
   }
 }
+
+/* Responsive Design for Tablet Wide */
+
+@media (min-width: 1024px) {
+  .hero {
+    padding-left: 107px;
+    padding-right: 107px;
+  }
+
+  .hero-title {
+    max-width: 525px;
+  }
+
+  .hero-text {
+    max-width: 444px;
+  }
+}
