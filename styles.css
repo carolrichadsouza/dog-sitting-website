@@ -163,3 +163,65 @@ h1, h2, h3, p {
   font-size: 18px;
   line-height: 26px;
 }
+
+/* Responsive Design for Tablet Tall */
+
+@media (min-width: 726px) {
+  .hero {
+    min-height: 601px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .hero-title {
+    max-width: 416px;
+    font-size: 45px;
+  }
+
+  .hero-text {
+    max-width: 416px;
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .services-intro {
+    width: 100%;
+    max-width: 689px;
+    margin: 0 auto;
+  }
+
+  .services-title {
+    font-size: 36px;
+  }
+
+  .services-text {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .service-card {
+    display: grid;
+    grid-template-columns: 412.17fr 403.83fr;  
+    min-height: 300px;
+  }
+
+  .card-image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-body {
+    justify-content: center;  
+  }
+
+  .card-title {
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .card-text {
+    font-size: 18px;
+    line-height: normal;
+  }
+}
