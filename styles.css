@@ -7,6 +7,8 @@
     --color-button-hover: #FF6D00;
 
     --radius-button: 4px;
+    --radius-card: 8px;
+    --shadow-card: 0px 1px 8px 0px #00000033;
 }
 
 *,
@@ -94,4 +96,70 @@ h1, h2, h3, p {
   bottom: -1px;
   width: 100%;
   height: auto;
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 52px 24px 0;
+}
+
+.services-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.services-title {
+  color: var(--color-heading);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.services-text {
+  color: var(--color-text);
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.services-cards {
+  display: grid;
+  gap: 30px;
+}
+
+.service-card {
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.card-image {
+  width: 100%;
+  height: 266.39px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+}
+
+.card-title {
+  color: var(--color-heading);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-text {
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 26px;
 }
