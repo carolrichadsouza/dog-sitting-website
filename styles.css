@@ -242,3 +242,28 @@ h1, h2, h3, p {
     max-width: 444px;
   }
 }
+
+/* Responsive Design for Desktop */
+
+@media (min-width: 1440px) {
+  .hero {
+    padding-left: 219px;
+    padding-right: 219px;
+  }
+
+  .hero-title {
+    max-width: 588px;
+  }
+
+  .services-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .service-card {
+    display: block;
+  }
+
+  .card-image {
+    height: auto;
+  }
+}
